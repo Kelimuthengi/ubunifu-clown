@@ -1,0 +1,787 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.backgroundimg {
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar ul {
+    display: flex;
+    margin-left: 540px;
+}
+
+.navbar li {
+    color: white;
+    list-style: none;
+    text-transform: capitalize;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 20px 0px 0px 30px;
+    cursor: pointer;
+}
+
+.navbar li:hover {
+    text-decoration: 2px white underline;
+}
+
+.start {
+    height: 45px;
+    width: 120px;
+    margin: 10px 0px 0px 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.logo {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    margin: 20px 0px 0px 10px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.text1 {
+    color: white;
+    transform: translate(90px, 170px);
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.text2 {
+    text-transform: capitalize;
+    color: white;
+    transform: translate(280px,170px);
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.getstart {
+    width: 180px;
+    height: 55px;
+    color: white;
+    background-color: rgb(236,29,36);
+    border: none;
+    border-radius: 4px;
+    text-transform: capitalize;
+    transform: translate(580px, 200px);
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+
+.text3 {
+    text-transform: capitalize;
+    color: white;
+    transform: translate(440px,277px);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.section2 {
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.works {
+    font-size: 50px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    transform: translate(450px, 200px);
+    color: rgb(72, 72, 72);
+}
+
+#cart {
+    height: 120px;
+    fill: rgb(236,29,36);
+    transform: translate(140px, 250px);
+}
+
+.choose {
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    transform: translate(140px, 260px);
+    color: rgb(72, 72, 72);
+}
+
+.select {
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+    transform: translate(130px, 270px);
+}
+
+#cart1 {
+    height: 140px;
+    fill: rgb(236,29,36);
+    transform: translate(540px, 30px);
+}
+
+.deliver {
+    color: rgb(72, 72, 72);
+    text-transform: capitalize;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    transform: translate(560px, 50px);
+}
+
+.freshest {
+    color: grey;
+    font-family: 'Roboto',sans-serif;
+    transform: translate(500px ,60px);
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+#cart2 {
+    height: 140px;
+    fill: rgb(236,29,36);
+    transform: translate(940px, -200px );
+}
+
+.cook {
+    color: rgb(72, 72, 72);
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 600;
+    transform: translate(940px, -170px);
+}
+
+.tasty {
+    color: grey;
+    font-family: 'Roboto',sans-serif;
+    text-transform: capitalize;
+    font-weight: 100;
+    transform: translate(900px, -160px);
+}
+
+.recipes {
+    transform: translate(480px, -20px);
+    background-color: rgb(236,29,36);
+    height: 60px;
+    width: 280px;
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.section3 {
+    min-height: 100vh;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.will {
+    color: white;
+    font-size: 45px;
+    font-family: 'Roboto',sans-serif;
+    text-transform: capitalize;
+    font-weight: 550;
+    transform: translate(100px, 120px);
+}
+
+#week {
+    height: 50px;
+    fill: rgb(236,29,36);
+    transform: translate(240px, 130px);
+}
+
+.weekly {
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    transform: translate(200px, 130px);
+    font-weight: 600;
+}
+
+.sorted {
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 200;
+    transform: translate(50px, 140px);
+    text-transform: capitalize;
+}
+
+#carrot {
+    height: 50px;
+    fill: rgb(236,29,36);
+    transform: translate(230px, 180px);
+}
+
+.ingridients {
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Roboto',sans-serif;
+    transform: translate(200px, 190px);
+    font-weight: 600;
+}
+
+.fresh {
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    text-transform: capitalize;
+    font-weight: 500;
+    transform: translate(90px, 200px);
+}
+
+#cards {
+    height: 50px;
+    fill: rgb(236,29,36);
+    transform: translate(230px, 220px);
+}
+
+.recipe {
+    color: white;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: 'Roboto',sans-serif;
+    transform: translate(200px, 230px);
+
+}
+
+.steps {
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 100;
+    text-transform: capitalize;
+    transform: translate(100px, 250px);
+}
+
+.section4 {
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+#star {
+    height: 15px;
+}
+
+#facebook {
+    height: 20px;
+}
+
+.customer {
+    font-family: 'Roboto',sans-serif;
+    text-transform: capitalize;
+    font-size: 48px;
+    font-weight: 600;
+    transform: translate(450px, 80px);
+}
+
+.excellent {
+    font-family: 'Roboto',sans-serif;
+    color: rgb(145,145,145);
+    text-transform: capitalize;
+    font-weight: 600;
+    transform: translate(500px, 90px);
+    font-size: 25px;
+}
+
+#star {
+    height: 25px;
+    fill: rgb(255,139,0);
+    transform: translate(690px, 60px);
+}
+
+.facebook {
+    text-transform: capitalize;
+    color: rgb(145,145,145);
+    transform: translate(620px, 70px);
+}
+
+#facebook {
+    fill: rgb(59,89,152);
+    transform: translate(765px, -190px);
+}
+
+.elena1 {
+    font-family: 'Roboto',sans-serif;
+    font-size: 25px;
+    text-transform: capitalize;
+    transform: translate(390px, 110px);
+    font-weight: 600;
+    color: rgb(86, 86, 86);
+}
+
+.anne1 {
+    font-family: 'Roboto',sans-serif;
+    font-size: 25px;
+    text-transform: capitalize;
+    transform: translate(850px, -220px);
+    font-weight: 600;
+    color: rgb(86, 86, 86);
+}
+
+.anne2 {
+    color: rgb(145,145,145);
+    font-family: 'Roboto',sans-serif;
+    font-size: 100;
+    transform: translate(750px, -220px);
+}
+
+.brilliant {
+    color: rgb(145,145,145);
+    font-family: 'Roboto',sans-serif;
+    font-size: 100;
+    transform: translate(300px, 120px);
+}
+
+.elena {
+    height: 250px;
+    transform: translate(200px, 100px);
+    border-radius: 10px;
+}
+
+.anne {
+    height: 250px;
+    transform: translate(700px, -235px);
+    border-radius: 10px;
+}
+
+.hawaiimg {
+    background-size: cover;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.meals {
+    color: white;
+    font-size: 50px;
+    text-transform: capitalize;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+    transform: translate(300px, 80px);
+}
+
+.meals1 {
+    background-color: rgb(236,29,36);
+    transform: translate(460px, 360px);
+    height: 70px;
+    width: 350px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+}
+
+.lion {
+    color: white;
+    transform: translate(500px, 400px);
+    font-family: 'Roboto',sans-serif;
+    font-weight: 600;
+}
+
+.section5 {
+    min-height: 90vh;
+    overflow-x: hidden;
+}
+
+.award1 {
+    height: 90px;
+    transform: translate(300px, 80px);
+}
+
+.winner {
+    font-weight: 700;
+    font-family: 'Roboto',sans-serif;
+    text-transform: capitalize;
+    transform: translate(200px, 90px);
+}
+
+
+.award2 {
+    height: 90px;
+    transform: translate(850px, -40px);
+
+}
+
+.highly {
+    font-weight: 700;
+    font-family: 'Roboto',sans-serif;
+    text-transform: capitalize;
+    transform: translate(800px, -25px);
+}
+
+.cosmo {
+    height: 25px;
+    transform: translate(120px, 60px);
+}
+
+.dubai {
+    height: 50px;
+    transform: translate(180px, 80px);
+}
+
+.dubaieye {
+    height: 45px;
+    transform: translate(260px, 70px);
+}
+
+.times {
+    height: 30px;
+    transform: translate(300px, 60px);
+}
+
+.good {
+    height: 50px;
+    transform: translate(340px, 90px);
+}
+
+.national {
+    height: 20px;
+    transform: translate(380px, 50px);
+}
+
+.section6 {
+    background-size: cover;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.chef {
+    color: white;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    font-weight: 500;
+    transform: translate(100px, 140px);
+}
+
+.inspire {
+    color: white;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 400;
+    transform: translate(100px, 180px);
+}
+
+.more {
+    background-color: rgb(236,29,36);
+    color: white;
+    height: 60px;
+    width: 190px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+    transform: translate(100px, 240px);
+    font-weight: 500;
+}
+
+.section7 {
+    min-height: 135vh;
+    overflow-x: hidden;
+}
+
+.dinner {
+    font-size: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    transform: translate(200px, 80px);
+    color: rgb(86, 86, 86);
+}
+
+.btn {
+    background-color: rgb(236,29,36);
+    height: 60px;
+    width: 200px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    transform: translate(540px, 120px);
+}
+
+.t {
+    color: rgb(145,145,145);
+    transform: translate(510px, 140px);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.hello {
+    transform: translate(550px, 200px);
+    font-size: 40px;
+    color: rgb(228,42,18);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
+
+.line1 {
+    border: 1px solid rgb(221, 207, 207); 
+    transform: translate(0px, 180px);
+}
+
+.aboutus {
+    transform: translate(100px, 250px);
+}
+
+.aboutus1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(72, 72, 72);
+    margin-bottom: 5px;
+}
+
+.olivia {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(165, 165, 165);
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.box {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(165, 165, 165);
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.info {
+    transform: translate(300px, 180px);
+}
+
+.info1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(72, 72, 72);
+    text-transform: capitalize;
+}
+
+.recycle {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(165, 165, 165);
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.storage {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(165, 165, 165);
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.faqs {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(165, 165, 165);
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.ourblog {
+    transform: translate(700px, 80px);
+}
+
+.foodie {
+    height: 60px;
+    border-radius: 5px;
+    transform: translate(-40px, 0px);
+}
+
+.ourblog1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(72, 72, 72);
+    margin-bottom: 10px;
+}
+
+.holiday {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(165, 165, 165);
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 15px;
+    transform: translate(-140px, 0px);
+}
+
+.contact {
+    transform: translate(900px,-60px);
+}
+
+.contact1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(72, 72, 72);
+    margin-bottom: 10px;font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(72, 72, 72);
+    margin-bottom: 10px;
+}
+
+.hello1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(165, 165, 165);
+    font-weight: 500;
+    font-size: 15px;
+    transform: translate(-40px, 0px);
+}
+
+.number {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(165, 165, 165);
+    font-weight: 400;
+    font-size: 15px;
+    transform: translate(0px, -10px);
+}
+
+#gmail {
+    transform: translate(110px, -25px);
+    height: 20px;
+    fill: rgb(165, 165, 165);
+}
+
+#contact {
+    height: 25px;
+    fill: rgb(165, 165, 165);
+    transform: translate(110px, -25px);
+}
+
+.subscribe {
+    transform: translate(100px, 30px);
+    margin-bottom: 50px;
+}
+
+.to {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(86, 86, 86);
+    margin-bottom: 10px;
+    transform: translate(-20px, 0px);
+    font-size: 15px;
+}
+
+#email {
+    height: 40px;
+    width: 200px;
+    transform: translate(-15px, 0px);
+    border: none;
+    background-color: rgb(243, 238, 235);
+    color: rgb(145,145,145);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subscribed {
+    height: 40px;
+    width: 100px;
+    transform: translate(-10px, 0px);
+    background-color: rgb(236,29,36);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2px;text-transform: capitalize;
+    border: none;
+}
+
+.reviews {
+    transform: translate(550px,-70px);
+}
+
+.seeour {
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: rgb(86, 86, 86);
+    margin-bottom: 10px;
+    transform: translate(-20px, 0px);
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+#stars {
+    height: 20px;
+    fill: rgb(255,139,0);
+}
+
+#google {
+    height: 25px;
+}
+
+.follow {
+    transform: translate(1000px, -130px);
+    text-transform: capitalize;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(86, 86, 86);
+    font-weight: 500;
+}
+
+.followus {
+    margin-bottom: 20px;
+}
+
+#icon1 {
+    height: 30px;
+    fill: rgb(165, 165, 165);
+    margin-right: 5px;
+}
+
+#icon2 {
+    height: 30px;
+    fill: rgb(165, 165, 165);
+    margin-right: 15px;
+}
+
+#icon3 {
+    height: 30px;
+    fill: rgb(165, 165, 165)
+}
+
+.uae {
+    transform: translate(500px, 0px);
+}
+
+#love {
+    height: 20px;
+    fill: red;
+    transform: translate(80px, -45px);
+}
+
+.UAE {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(145,145,145);
+}
+
+.UAE1 {
+    transform: translate(100px, -15px);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(145,145,145);
+}
+
+.copyright {
+    transform: translate(-100px, -35px);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(145,145,145);
+    font-size: 15px;
+}
+
